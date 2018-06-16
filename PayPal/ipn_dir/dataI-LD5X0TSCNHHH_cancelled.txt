@@ -1,0 +1,141 @@
+{
+	"id": "WH-75J469052L692104V-6EL57384V3560404N",
+	"create_time": "2017-09-18T12:04:39.261Z",
+	"resource_type": "Agreement",
+	"event_type": "BILLING.SUBSCRIPTION.CANCELLED",
+	"summary": "A billing subscription was cancelled by the buyer",
+	"resource": {
+		"shipping_address": {
+			"recipient_name": "Abhishek Mishra",
+			"line1": "111 First Street",
+			"city": "Saratoga",
+			"state": "CA",
+			"postal_code": "95070",
+			"country_code": "US"
+		},
+		"id": "I-LD5X0TSCNHHH",
+		"plan": {
+			"currency_code": "USD",
+			"payment_definitions": [
+				{
+					"type": "REGULAR",
+					"frequency": "Week",
+					"frequency_interval": "1",
+					"amount": {
+						"currency": "USD",
+						"value": "4.99"
+					},
+					"cycles": "48",
+					"charge_models": [
+						{
+							"type": "SHIPPING",
+							"amount": {
+								"currency": "USD",
+								"value": "0.00"
+							}
+						},
+						{
+							"type": "TAX",
+							"amount": {
+								"currency": "USD",
+								"value": "0.00"
+							}
+						}
+					]
+				}
+			],
+			"merchant_preferences": {
+				"setup_fee": {
+					"currency": "USD",
+					"value": "0.00"
+				},
+				"auto_bill_amount": "YES",
+				"max_fail_attempts": "0"
+			}
+		},
+		"payer": {
+			"payment_method": "PAYPAL",
+			"payer_info": {
+				"email": "abhishekcs139@gmail.com",
+				"first_name": "Abhishek",
+				"last_name": "Mishra",
+				"payer_id": "J4Q96CH8LWW9J"
+			},
+			"status": "unverified"
+		},
+		"merchant": {
+			"payee_info": {
+				"merchant_id": "GGJ3DE29AFMHS"
+			}
+		},
+		"description": "Startrishta VIP Subcription Recurring Payments",
+		"agreement_details": {
+			"outstanding_balance": {
+				"currency": "USD",
+				"value": "0.00"
+			},
+			"cycles_remaining": "46",
+			"cycles_completed": "2",
+			"next_billing_date": "2017-09-21T10:00:00Z",
+			"last_payment_date": "2017-09-14T11:05:43Z",
+			"last_payment_amount": {
+				"currency": "USD",
+				"value": "4.99"
+			},
+			"final_payment_date": "2018-08-02T10:00:00Z",
+			"failed_payment_count": "0"
+		},
+		"state": "Cancelled",
+		"links": [
+			{
+				"href": "https://10.72.129.204:33206/v1/payments/billing-agreements/I-LD5X0TSCNHHH/suspend",
+				"rel": "suspend",
+				"method": "POST"
+			},
+			{
+				"href": "https://10.72.129.204:33206/v1/payments/billing-agreements/I-LD5X0TSCNHHH/re-activate",
+				"rel": "re_activate",
+				"method": "POST"
+			},
+			{
+				"href": "https://10.72.129.204:33206/v1/payments/billing-agreements/I-LD5X0TSCNHHH/cancel",
+				"rel": "cancel",
+				"method": "POST"
+			},
+			{
+				"href": "https://10.72.129.204:33206/v1/payments/billing-agreements/I-LD5X0TSCNHHH/bill-balance",
+				"rel": "self",
+				"method": "POST"
+			},
+			{
+				"href": "https://10.72.129.204:33206/v1/payments/billing-agreements/I-LD5X0TSCNHHH/set-balance",
+				"rel": "self",
+				"method": "POST"
+			}
+		],
+		"start_date": "2017-09-07T07:00:00Z"
+	},
+	"status": "PENDING",
+	"transmissions": [
+		{
+			"webhook_url": "https://www.startrishta.com/beta-dev/PayPal/webhook.php",
+			"transmission_id": "0e5bcb20-9c6b-11e7-ac1e-6b62a8a99ac4",
+			"status": "PENDING"
+		}
+	],
+	"links": [
+		{
+			"href": "https://api.sandbox.paypal.com/v1/notifications/webhooks-events/WH-75J469052L692104V-6EL57384V3560404N",
+			"rel": "self",
+			"method": "GET",
+			"encType": "application/json"
+		},
+		{
+			"href": "https://api.sandbox.paypal.com/v1/notifications/webhooks-events/WH-75J469052L692104V-6EL57384V3560404N/resend",
+			"rel": "resend",
+			"method": "POST",
+			"encType": "application/json"
+		}
+	],
+	"event_version": "1.0"
+}

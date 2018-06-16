@@ -1,0 +1,21 @@
+if(isset($_REQUEST))
+{
+	$event_type = $_POST['event_type'];
+ // check if both fields are set
+	echo $var = 'Post called';
+	$txts=$var;
+	foreach($_REQUEST as $key => $value)
+	{
+	$txts.=$event_type.' - '.$var.' - '.$key.' - '.$value.'\n'; 	
+	}
+//	echo $txts;
+    fwrite($fh,$txts); // Write information to the file
+    fclose($fh); // Close the file
+}
+else
+{
+	echo $var = 'Post not called';
+	
+	 fwrite($fh,$var); // Write information to the file
+    fclose($fh); // Close the file
+}

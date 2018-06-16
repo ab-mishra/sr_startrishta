@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from cazylabs.com/themes-demo/quarca/documentation/pages/ui-advanced-elements.html by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 26 Mar 2015 07:28:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8"><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Advanced Elements - Quarca</title>
+	
+	<!-- Block search engines -->
+	<meta name="robots" content="noindex,follow">
+    
+	<!-- Styling -->
+	<link href="../vendor/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="../assets/css/ui.css" rel="stylesheet">
+	    
+	<!-- Theme -->
+	<link id="theme" href="../assets/css/themes/theme-default.css" rel="stylesheet" type="text/css">
+    
+	<!-- Plugins -->
+	<link href="../vendor/documentation-plugins/syntax-highlighter/jquery.snippet.min.css" rel="stylesheet">
+	<link href="../vendor/plugins/ui/carousel/owl.carousel.css" rel="stylesheet">
+	    
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+	<link href="../vendor/fonts/font-awesome.min.css" rel="stylesheet">
+	    
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+    </head>
+    
+    <body>
+	<!-- Preloader -->
+	<div id="preloader"><div id="status">&nbsp;</div></div>
+	
+	<div class="wrapper">
+	<!-- HEADER -->
+	    <header class="header affix" role="banner">
+		<nav class="header-navbar">
+		    <div class="navbar-header clearfix">
+			<a class="logo pull-left" href="../documentation.html">
+			    <img src="../assets/img/core/logo.png" width="110" alt="Quarca Logo">
+			</a>
+			
+			<a class="sidebar-switch pull-right"><span class="icon fa"></span></a>
+		    </div>
+    
+		    <h1 class="hidden-xs">Quarca Documentation - Advanced Elements</h1>
+		</nav>
+	    </header>
+	<!-- HEADER -->
+
+	<!-- SIDEBAR -->
+            <aside class="sidebar affix" role="complementary">
+		
+		<div class="sidebar-container">
+		    <div class="sidebar-scrollpane">
+			<div class="sidebar-content">
+
+			    <nav class="main-nav">
+				<ul id="sidebar-nav" class="sidebar-nav">
+				    <li>
+					<a href="../documentation.html">1.0 - Welcome</a>
+				    </li>
+				    <li>
+					<a href="drag-drop-resize.html">2.0 - Drag, Drop &amp; Resize</a>
+				    </li>
+				    <li>
+					<a href="#">
+					    3.0 - UI Kit <span class="fa plus-times"></span>
+					</a>
+					<ul>
+					    <li><a href="buttons.html">3.1 - Buttons</a></li>
+					    <li><a href="ui-elements.html">3.2 - Elements</a></li>
+					    <li><a href="ui-advanced-elements.html">3.3 - Advanced Elements</a></li>
+					</ul>
+				    </li>
+				    <li>
+					<a href="#">
+					    4.0 - Forms <span class="fa plus-times"></span>
+					</a>
+					<ul>
+					    <li><a href="form-elements.html">4.1 - Form Elements</a></li>
+					    <li><a href="form-advanced-elements.html">4.2 - Advanced Elements</a></li>
+					</ul>
+				    </li>
+				    <li>
+					<a href="charts.html">5.0 - Charts</a>
+				    </li>
+				    <li>
+					<a href="plugins-credits.html">6.0 - Plugins &amp; Credits</a>
+				    </li>
+				</ul><!-- sidebar-nav -->
+			    </nav>
+			    
+			</div><!-- sidebar-content -->
+		    </div><!-- scrollpane -->
+		</div><!-- sidebar-container -->
+		
+            </aside><!-- sidebar -->
+	<!-- SIDEBAR -->
+	    
+	<!-- MAIN -->
+	    <div class="main">
+	    <!-- CONTENT -->
+		<div id="content">
+		    
+		    <div class="container-fluid documentation">
+			
+			<div class="row">
+			    <div class="col-md-12">
+				
+				<h2>Tabs</h2>
+				<div class="row inside">
+				    <div class="col-sm-4">
+					<div role="tabpanel">
+					    <!-- Nav tabs -->
+					    <ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#tab1a" aria-controls="tab1a" role="tab" data-toggle="tab">Tab 1</a></li>
+						<li role="presentation"><a href="#tab2a" aria-controls="tab2a" role="tab" data-toggle="tab">Tab 2</a></li>
+						<li class="dropdown">
+						    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Dropdown <b class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+							    <li role="presentation"><a href="#tab3a" aria-controls="tab3a" role="tab" data-toggle="tab">Tab 3</a></li>
+							    <li role="presentation"><a href="#tab4a" aria-controls="tab4a" role="tab" data-toggle="tab">Tab 4</a></li>
+							</ul>
+						</li>
+					    </ul>
+					
+					    <!-- Tab panes -->
+					    <div class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="tab1a">
+						    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum, nibh in bibendum bibendum, metus enim aliquet nisl, aliquet hendrerit magna nibh id urna.</p>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="tab2a">
+						    <p>In dictum tincidunt lorem, tempor tempus mauris tempor sed. Cras nisi risus, aliquet non lorem pulvinar, vulputate varius felis. Sed dignissim molestie tempus.</p>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="tab3a">
+						    <p>Vivamus gravida orci vestibulum, interdum justo sit amet, vehicula ante. Ut sollicitudin elit nec erat finibus, laoreet condimentum dui elementum. Sed tempus vel odio et maximus.</p>
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="tab4a">
+						    <p>Ut sollicitudin elit nec erat finibus, laoreet condimentum dui elementum. Sed tempus vel odio et maximus. Sed eleifend velit porta, maximus lectus non, placerat ligula.</p>
+						</div>
+					    </div>
+					</div><!-- /tabpanel -->
+					
+					<br>
+					<p>
+					    Add <code>text-center</code> to center tabs or <code>text-right</code> to push tabs to the right, on line 2 in the <code>ul</code> class after <code>nav-tabs</code>.
+					</p>
+					
+				    </div><!-- col -->
+				    
+				    <div class="col-sm-8">
+<pre class="htmlCode">
+&lt;div role=&quot;tabpanel&quot;&gt;
+    &lt;ul class=&quot;nav nav-tabs&quot; role=&quot;tablist&quot;&gt;
+	    &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#tab1&quot; aria-controls=&quot;tab1&quot; role=&quot;tab&quot; data-toggle=&quot;tab&quot;&gt;Tab 1&lt;/a&gt;&lt;/li&gt;
+	    &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#tab2&quot; aria-controls=&quot;tab2&quot; role=&quot;tab&quot; data-toggle=&quot;tab&quot;&gt;Tab 2&lt;/a&gt;&lt;/li&gt;
+	    &lt;li class=&quot;dropdown&quot;&gt;
+		    &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-expanded=&quot;false&quot;&gt;Dropdown &lt;b class=&quot;caret&quot;&gt;&lt;/b&gt;&lt;/a&gt;
+		    &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;
+			    &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#tab3&quot; aria-controls=&quot;tab3&quot; role=&quot;tab&quot; data-toggle=&quot;tab&quot;&gt;Tab 3&lt;/a&gt;&lt;/li&gt;
+			    &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#tab4&quot; aria-controls=&quot;tab4&quot; role=&quot;tab&quot; data-toggle=&quot;tab&quot;&gt;Tab 4&lt;/a&gt;&lt;/li&gt;
+		    &lt;/ul&gt;
+	    &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class=&quot;tab-content&quot;&gt;
+	    &lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane fade in active&quot; id=&quot;tab1&quot;&gt;
+		...
+	    &lt;/div&gt;
+	    &lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane fade&quot; id=&quot;tab2&quot;&gt;
+		...
+	    &lt;/div&gt;
+	    &lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane fade&quot; id=&quot;tab3&quot;&gt;
+		...
+	    &lt;/div&gt;
+	    &lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane fade&quot; id=&quot;tab4&quot;&gt;
+		...
+	    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+				    </div><!-- col -->
+				    
+				</div><!-- row -->
+				
+				
+				
+				<br>
+				<h2>Accordion</h2>
+				<div role="tabpanel">
+				    <!-- Nav tabs -->
+				    <ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#tab1b" aria-controls="tab1b" role="tab" data-toggle="tab">Preview</a></li>
+					<li role="presentation"><a href="#tab2b" aria-controls="tab2b" role="tab" data-toggle="tab">HTML</a></li>
+				    </ul>
+				
+				    <!-- Tab panes -->
+				    <div class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="tab1b">
+
+					    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingOne">
+							<h4 class="panel-title">
+							    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible 1
+								<i class="more-less fa fa-minus pull-right"></i>
+							    </a>
+							</h4>
+						    </div><!-- /panel-heading -->
+						    
+						    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body">
+							    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum, nibh in bibendum bibendum, metus enim aliquet nisl, aliquet hendrerit magna nibh id urna. Maecenas vehicula erat vitae tortor elementum aliquet. Duis nisi nibh, mattis ut elit quis, placerat vehicula justo. In dictum tincidunt lorem, tempor tempus mauris tempor sed. Cras nisi risus, aliquet non lorem pulvinar, vulputate varius felis. Sed dignissim molestie tempus. Suspendisse a est tempus, vulputate sapien nec, auctor neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</div><!-- /panel-body -->
+						    </div><!-- /panel-collapse -->
+						</div><!-- /panel -->
+						
+						<div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingTwo">
+							<h4 class="panel-title">
+							    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Collapsible 2
+								<i class="more-less fa fa-plus pull-right"></i>
+							    </a>
+							</h4>
+						    </div><!-- /panel-heading -->
+						    
+						    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="panel-body">
+							    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum, nibh in bibendum bibendum, metus enim aliquet nisl, aliquet hendrerit magna nibh id urna. Maecenas vehicula erat vitae tortor elementum aliquet. Duis nisi nibh, mattis ut elit quis, placerat vehicula justo. In dictum tincidunt lorem, tempor tempus mauris tempor sed. Cras nisi risus, aliquet non lorem pulvinar, vulputate varius felis. Sed dignissim molestie tempus. Suspendisse a est tempus, vulputate sapien nec, auctor neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</div><!-- /panel-body -->
+						    </div><!-- /panel-collapse -->
+						</div><!-- /panel -->
+						
+						<div class="panel panel-default">
+						    <div class="panel-heading" role="tab" id="headingThree">
+							<h4 class="panel-title">
+							    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Collapsible 3
+								<i class="more-less fa fa-plus pull-right"></i>
+							    </a>
+							</h4>
+						    </div><!-- /panel-heading -->
+						    
+						    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							<div class="panel-body">
+							    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum, nibh in bibendum bibendum, metus enim aliquet nisl, aliquet hendrerit magna nibh id urna. Maecenas vehicula erat vitae tortor elementum aliquet. Duis nisi nibh, mattis ut elit quis, placerat vehicula justo. In dictum tincidunt lorem, tempor tempus mauris tempor sed. Cras nisi risus, aliquet non lorem pulvinar, vulputate varius felis. Sed dignissim molestie tempus. Suspendisse a est tempus, vulputate sapien nec, auctor neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							</div><!-- /panel-body -->
+						    </div><!-- /panel-collapse -->
+						</div><!-- /panel -->
+					    </div><!-- /panel-group -->
+					
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="tab2b">
+<pre class="htmlCodeNoNum">
+&lt;div class=&quot;panel-group&quot; id=&quot;accordion&quot; role=&quot;tablist&quot; aria-multiselectable=&quot;true&quot;&gt;
+    &lt;div class=&quot;panel panel-default&quot;&gt;
+        &lt;div class=&quot;panel-heading&quot; role=&quot;tab&quot; id=&quot;headingOne&quot;&gt;
+            &lt;h4 class=&quot;panel-title&quot;&gt;
+                &lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#collapseOne&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;collapseOne&quot;&gt;
+                    Collapsible 1
+                    &lt;i class=&quot;more-less fa fa-minus pull-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/h4&gt;
+        &lt;/div&gt;&lt;!-- panel-heading --&gt;
+        
+        &lt;div id=&quot;collapseOne&quot; class=&quot;panel-collapse collapse in&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;headingOne&quot;&gt;
+            &lt;div class=&quot;panel-body&quot;&gt;
+                ...
+            &lt;/div&gt;&lt;!-- panel-body --&gt;
+        &lt;/div&gt;&lt;!-- panel-collapse --&gt;
+    &lt;/div&gt;&lt;!-- panel --&gt;
+    
+    &lt;div class=&quot;panel panel-default&quot;&gt;
+        &lt;div class=&quot;panel-heading&quot; role=&quot;tab&quot; id=&quot;headingTwo&quot;&gt;
+            &lt;h4 class=&quot;panel-title&quot;&gt;
+                &lt;a class=&quot;collapsed&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#collapseTwo&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseTwo&quot;&gt;
+                    Collapsible 2
+                    &lt;i class=&quot;more-less fa fa-plus pull-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/h4&gt;
+        &lt;/div&gt;&lt;!-- panel-heading --&gt;
+        
+        &lt;div id=&quot;collapseTwo&quot; class=&quot;panel-collapse collapse&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;headingTwo&quot;&gt;
+            &lt;div class=&quot;panel-body&quot;&gt;
+                ...
+            &lt;/div&gt;&lt;!-- panel-body --&gt;
+        &lt;/div&gt;&lt;!-- panel-collapse --&gt;
+    &lt;/div&gt;&lt;!-- panel --&gt;
+    
+    &lt;div class=&quot;panel panel-default&quot;&gt;
+        &lt;div class=&quot;panel-heading&quot; role=&quot;tab&quot; id=&quot;headingThree&quot;&gt;
+            &lt;h4 class=&quot;panel-title&quot;&gt;
+                &lt;a class=&quot;collapsed&quot; data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion&quot; href=&quot;#collapseThree&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;collapseThree&quot;&gt;
+                    Collapsible 3
+                    &lt;i class=&quot;more-less fa fa-plus pull-right&quot;&gt;&lt;/i&gt;
+                &lt;/a&gt;
+            &lt;/h4&gt;
+        &lt;/div&gt;&lt;!-- panel-heading --&gt;
+        
+        &lt;div id=&quot;collapseThree&quot; class=&quot;panel-collapse collapse&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;headingThree&quot;&gt;
+            &lt;div class=&quot;panel-body&quot;&gt;
+                ...
+            &lt;/div&gt;&lt;!-- panel-body --&gt;
+        &lt;/div&gt;&lt;!-- panel-collapse --&gt;
+    &lt;/div&gt;&lt;!-- panel --&gt;
+&lt;/div&gt;&lt;!-- panel-group --&gt;
+</pre>
+					</div>
+				    </div>
+				</div>
+				
+				
+				
+				<br>
+				<h2>Progress Bars</h2>
+				<p>
+				    Quarca uses a jQuery plugin called <a href="http://www.minddust.com/project/bootstrap-progressbar/" target="_blank"><strong>Bootstrap-Progressbar</strong></a> to extend the normal Bootstrap progress bars. Check out the link for more information.
+				</p>
+				<br>
+				
+				<h5>How to use progress bars?</h5>
+				<p>
+				    <strong>Step 1:</strong> Add the jQuery plugin after the wrapper div. <code>&lt;script src=&quot;vendor/plugins/ui/progress-bar/bootstrap-progressbar.min.js&quot;&gt;&lt;/script&gt;</code><br>
+				    <strong>Step 2:</strong> Add the HTML code.<br>
+				    <strong>Step 3:</strong> Initialize the plugin before the ending body tag.
+				</p>
+				<div role="tabpanel">
+				    <!-- Nav tabs -->
+				    <ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#tab1c" aria-controls="tab1c" role="tab" data-toggle="tab">Preview</a></li>
+					<li role="presentation"><a href="#tab2c" aria-controls="tab2c" role="tab" data-toggle="tab">HTML</a></li>
+					<li role="presentation"><a href="#tab3c" aria-controls="tab3c" role="tab" data-toggle="tab">JS</a></li>
+				    </ul>
+				
+				    <!-- Tab panes -->
+				    <div class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="tab1c">
+
+					    <div class="progress">
+						<div class="progress-bar" role="progressbar" data-transitiongoal="75">
+						    <span class="sr-only">75% Complete</span>
+						</div>
+					    </div>
+					    
+					    <div class="progress">
+						<div class="progress-bar progress-bar-success" role="progressbar" data-transitiongoal="50">
+						    <span class="sr-only">50% Complete</span>
+						</div>
+					    </div>
+					    
+					    <div class="progress">
+						<div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal="100">
+						    <span class="sr-only">100% Complete</span>
+						</div>
+					    </div>
+					    
+					    <div class="progress">
+						<div class="progress-bar progress-bar-warning" role="progressbar" data-transitiongoal="10">
+						    <span class="sr-only">10% Complete</span>
+						</div>
+					    </div>
+					    
+					    <div class="progress no-margin-bottom">
+						<div class="progress-bar progress-bar-danger" role="progressbar" data-transitiongoal="30">
+						    <span class="sr-only">30% Complete</span>
+						</div>
+					    </div>
+					
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="tab2c">
+<pre class="htmlCode">
+&lt;div class=&quot;progress&quot;&gt;
+    &lt;div class=&quot;progress-bar&quot; role=&quot;progressbar&quot; data-transitiongoal=&quot;75&quot;&gt;
+        &lt;span class=&quot;sr-only&quot;&gt;75% Complete&lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="tab3c">
+<pre class="js">
+$('.progress .progress-bar').progressbar({
+    transition_delay: 400,
+    display_text: 'fill'
+});
+</pre>
+					</div>
+				    </div>
+				</div>
+				<br>
+				    
+				<h5>How to use different colors?</h5>
+				<p>
+				    Add <code>progress-bar-success</code>, <code>progress-bar-info</code>, <code>progress-bar-warning</code> or <code>progress-bar-danger</code>
+				    in the second div after <code>progress-bar</code>.
+				</p>
+				<br>
+				    
+				<h5>How to initialize the progress bar from the right?</h5>
+				<p>
+				    Add <code>right</code> in the first div after the class name <code>progress</code>.
+				</p>
+				<br>
+				
+				<h5>How to use animated progress bars?</h5>
+				<p>
+				    Add <code>progress-bar-striped active</code> in the second div class after <code>progress-bar</code>.
+				</p>
+				<br>
+				    
+				<h5>How to use vertical progress bars?</h5>
+				<p>
+				    Add <code>vertical</code> in the first div after <code>progress</code>.
+				</p>
+				
+				
+				
+				<br>
+				<h2>Modals</h2>
+				<strong>IMPORTANT:</strong>
+				<p>
+				    Make sure to include the modal HTML between <code>&lt;/div&gt;&lt;!-- main --&gt;</code> and <code>&lt;/div&gt;&lt;!-- wrapper --&gt;</code> ending tags
+				    for the modal to open without causing any bugs.<br>
+				</p>
+				<br>
+				
+				<h5>Why can't I include it right after the modal trigger button?</h5>
+				<p>
+				    Because of how the Sidebar/Content toggle(open/close sidebar) works. You will notice that when the sidebar is toggled, the sidebar stays, only the content part moves.
+				    So, the sidebar stays; the header is fixed; the content moves to hide the sidebar but also goes under the header when scrolling.<br><br>
+				    In order to achieve this:<br>
+				    1. The header has to be in a fixed position for the content to scroll under it. It requires a higher z-index value to be over the content part.<br>
+				    2. For the content part to hide the sidebar, it requires a higher z-index value than the sidebar. But, the z-index value of the content part can't be higher than the header or it will be over the header when scrolling.<br>
+				    3. Now, when you add a modal into the content, when it opens it has a fixed position. As the content part has a relative position(to be able to add the z-index), the header will still be visible when opening the modal and will cause some bugs.<br><br>
+				    The solution is simple, move the modal outside of the content part(after <code>main</code> ending tag).
+				</p>
+				<br>
+				
+				<h5>Modal example</h5>
+				<div role="tabpanel">
+				    <!-- Nav tabs -->
+				    <ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#tab1d" aria-controls="tab1d" role="tab" data-toggle="tab">Preview</a></li>
+					<li role="presentation"><a href="#tab2d" aria-controls="tab2d" role="tab" data-toggle="tab">HTML</a></li>
+				    </ul>
+				
+				    <!-- Tab panes -->
+				    <div class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="tab1d">
+
+					    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal1">Open/Close Modal</button>
+					
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="tab2d">
+<pre class="htmlCode">
+&lt;!-- Modal Trigger Button --&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal1&quot;&gt;Open/Close Modal&lt;/button&gt;
+&lt;!-- Modal --&gt;
+&lt;div class=&quot;modal fade&quot; id=&quot;myModal1&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;myModalLabel1&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot;&gt;
+        &lt;div class=&quot;modal-content&quot;&gt;
+            
+            &lt;div class=&quot;modal-header&quot;&gt;
+                &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;
+                &lt;h4 class=&quot;modal-title&quot; id=&quot;myModalLabel1&quot;&gt;Normal Modal&lt;/h4&gt;
+            &lt;/div&gt;&lt;!-- modal-header --&gt;
+            
+            &lt;div class=&quot;modal-body&quot;&gt;
+                ...
+            &lt;/div&gt;&lt;!-- modal-body --&gt;
+            
+            &lt;div class=&quot;modal-footer&quot;&gt;
+                &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+                &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Save changes&lt;/button&gt;
+            &lt;/div&gt;&lt;!-- modal-footer --&gt;
+        
+        &lt;/div&gt;&lt;!-- modal-content --&gt;
+    &lt;/div&gt;&lt;!-- modal-dialog --&gt;
+&lt;/div&gt;&lt;!-- modal --&gt;
+</pre>
+					</div>
+				    </div>
+				</div>
+				<br>
+				
+				<h5>How to use different colors?</h5>
+				<p>
+				    Add <code>modal-primary</code>, <code>modal-success</code>, <code>modal-warning</code>, <code>modal-danger</code> or <code>modal-dark</code>
+				    after <code>modal</code> in the first div class.
+				</p>
+				<br>
+				
+				<h5>How to use left/right/bottom/full-screen modals?</h5>
+				<p>
+				    Add <code>left</code>, <code>right</code>, <code>bottom</code> or <code>full</code>
+				    after <code>modal</code> in the first div class.
+				</p>
+				<br>
+				
+				<h5>How to mix styles?</h5>
+				<p>
+				    By simply adding the color and position classes on the same class after <code>modal</code>. It will work!
+				</p>
+				
+				
+				
+				
+				
+				<br>
+				<h2>Alerts</h2>
+				<div role="tabpanel">
+				    <!-- Nav tabs -->
+				    <ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#tab1e" aria-controls="tab1e" role="tab" data-toggle="tab">Preview</a></li>
+					<li role="presentation"><a href="#tab2e" aria-controls="tab2e" role="tab" data-toggle="tab">HTML</a></li>
+				    </ul>
+				
+				    <!-- Tab panes -->
+				    <div class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="tab1e">
+
+					    <div class="alert alert-success alert-dismissible" role="alert">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<span class="icon"><i class="fa fa-check fa-fw fa-2x"></i></span>
+						You successfully read this important alert message.
+					    </div>
+					    <div class="alert alert-info alert-dismissible" role="alert">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<span class="icon"><i class="fa fa-info fa-fw fa-2x"></i></span>
+						This alert needs your attention, but it's not super important.
+					    </div>
+					    <div class="alert alert-warning alert-dismissible" role="alert">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<span class="icon"><i class="fa fa-warning fa-fw fa-2x"></i></span>
+						Better check yourself, you're not looking too good.
+					    </div>
+					    <div class="alert alert-danger alert-dismissible no-margin-bottom" role="alert">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<span class="icon"><i class="fa fa-times fa-fw fa-2x"></i></span>
+						Change a few things up and try submitting again.
+					    </div>  
+					
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="tab2e">
+<pre class="htmlCodeNoNum">
+&lt;!-- Success Alert --&gt;
+&lt;div class=&quot;alert alert-success alert-dismissible&quot; role=&quot;alert&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;
+    &lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;fa fa-check fa-fw fa-2x&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+    You successfully read this important alert message.
+&lt;/div&gt;
+&lt;!-- Info Alert --&gt;
+&lt;div class=&quot;alert alert-info alert-dismissible&quot; role=&quot;alert&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;
+    &lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;fa fa-info fa-fw fa-2x&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+    This alert needs your attention, but it's not super important.
+&lt;/div&gt;
+&lt;!-- Warning Alert --&gt;
+&lt;div class=&quot;alert alert-warning alert-dismissible&quot; role=&quot;alert&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;
+    &lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;fa fa-warning fa-fw fa-2x&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+Better check yourself, you're not looking too good.
+&lt;/div&gt;
+&lt;!-- Danger Alert --&gt;
+&lt;div class=&quot;alert alert-danger alert-dismissible&quot; role=&quot;alert&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;
+    &lt;span class=&quot;icon&quot;&gt;&lt;i class=&quot;fa fa-times fa-fw fa-2x&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+    Change a few things up and try submitting again.
+&lt;/div&gt;
+</pre>
+					</div>
+				    </div>
+				</div>
+				
+				
+				
+				
+				<br>
+				<h2>Carousel</h2>
+				<p>
+				    Quarca uses this great plugin <a href="http://www.owlcarousel.owlgraphic.com/" target="_blank"><strong>Owl Carousel 2</strong></a>
+				    for fully responsive and touch enabled carousels. It has over 60 options and works on all modern browsers. You are not limited to the demo in Quarca,
+				    it is pretty easy to use the owl options and extend the functionalities, check out the website for more information.
+				</p>
+				<br>
+				    
+				<h5>How to use the plugin?</h5>
+				<p>
+				    <strong>Step 1:</strong> Add the CSS inside of the head tag. <code>&lt;link href=&quot;vendor/plugins/ui/carousel/owl.carousel.css&quot; rel=&quot;stylesheet&quot;&gt;</code><br>
+				    <strong>Step 2:</strong> Add the JS after the wrapper div <code>&lt;script src=&quot;vendor/plugins/ui/carousel/owl.carousel.min.js&quot;&gt;&lt;/script&gt;</code><br>
+				    <strong>Step 3:</strong> Add the HTML and initialize the plugin.
+				</p>
+				<br>
+				
+				<div role="tabpanel">
+				    <!-- Nav tabs -->
+				    <ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#tab1f" aria-controls="tab1f" role="tab" data-toggle="tab">Preview</a></li>
+					<li role="presentation"><a href="#tab2f" aria-controls="tab2f" role="tab" data-toggle="tab">HTML</a></li>
+					<li role="presentation"><a href="#tab3f" aria-controls="tab3f" role="tab" data-toggle="tab">JS</a></li>
+				    </ul>
+				
+				    <!-- Tab panes -->
+				    <div class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="tab1f">
+
+					    <div class="owl-carousel demo" id="demo1">
+						<div class="item"><h4>1</h4></div>
+						<div class="item"><h4>2</h4></div>
+						<div class="item"><h4>3</h4></div>
+						<div class="item"><h4>4</h4></div>
+						<div class="item"><h4>5</h4></div>
+						<div class="item"><h4>6</h4></div>
+						<div class="item"><h4>7</h4></div>
+						<div class="item"><h4>8</h4></div>
+						<div class="item"><h4>9</h4></div>
+						<div class="item"><h4>10</h4></div>
+						<div class="item"><h4>11</h4></div>
+						<div class="item"><h4>12</h4></div>
+					    </div>
+					
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="tab2f">
+<pre class="htmlCode">
+&lt;div class=&quot;owl-carousel&quot; id=&quot;demo&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;1&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;2&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;3&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;4&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;5&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;6&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;7&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;8&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;9&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;10&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;11&lt;/h4&gt;&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;&lt;h4&gt;12&lt;/h4&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+					</div>
+					
+					<div role="tabpanel" class="tab-pane fade" id="tab3f">
+<pre class="js">
+var owl = $('#demo');
+owl.owlCarousel({
+    loop: false,
+    nav: true,
+    margin: 10,
+    navText: [
+	    &quot;&lt;i class='fa fa-angle-left fa-lg'&gt;&lt;/i&gt;&quot;,
+	    &quot;&lt;i class='fa fa-angle-right fa-lg'&gt;&lt;/i&gt;&quot;
+    ],
+    responsive: {
+	    0:{
+		    items:1
+	    },
+	    600:{
+		    items:3
+	    },
+	    1000:{
+		    items:4
+	    }
+    }
+});
+</pre>
+					</div>
+				    </div>
+				</div>
+				
+				<br>
+				<h5>How to move the controls to the top?</h5>
+				<p>
+				    Add <code>controls-top</code> in the first div's class after <code>owl-carousel</code> and set <code>dots: false</code>.
+				</p>
+				
+				
+				
+				
+				
+				
+				
+
+				
+				
+				
+			    </div><!-- col -->
+			</div><!-- row -->
+		    </div><!-- container-fluid -->
+		    
+		</div><!-- content -->
+	    <!-- CONTENT -->
+	    </div><!-- main -->
+	<!-- MAIN  -->
+	
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+	<div class="modal-dialog">
+	    <div class="modal-content">
+		
+		<div class="modal-header">
+		    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		    <h4 class="modal-title" id="myModalLabel1">Normal Modal</h4>
+		</div><!-- /modal-header -->
+		
+		<div class="modal-body">
+		    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar gravida interdum. In luctus consectetur mauris, vel dapibus tellus venenatis ac. Praesent pretium dolor nibh, sit amet adipiscing libero dapibus at. Aliquam eleifend auctor tempor. Donec nec fermentum quam.</p>
+		</div><!-- /modal-body -->
+		
+		<div class="modal-footer">
+		    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		    <button type="button" class="btn btn-success">Save changes</button>
+		</div><!-- /modal-footer -->
+	    
+	    </div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+    </div><!-- /modal -->
+	
+	</div><!-- wrapper -->
+	
+        <!-- REQUIRED SCRIPTS -->
+	<script src="../vendor/js/required.min.js"></script>
+	<script src="../assets/js/quarca.js"></script>
+	<script src="../vendor/documentation-plugins/syntax-highlighter/jquery.snippet.min.js"></script>
+	
+	<!-- Progress Bar -->
+	<script src="../vendor/plugins/ui/progress-bar/bootstrap-progressbar.min.js"></script>
+	
+	<!-- Owl Carousel -->
+	<script src="../vendor/plugins/ui/carousel/owl.carousel.min.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+	    $("pre.htmlCode").snippet("html",{style:"acid"});
+	    $("pre.htmlCodeNoNum").snippet("html",{style:"acid",showNum:false});
+	    
+	    $("pre.styles").snippet("css",{style:"acid"});
+	    
+	    $("../../../../../www.cazylabs.com/themes-demo/quarca/documentation/pages/pre.html").snippet("javascript",{style:"acid",showNum:false});
+	});
+	
+	
+	
+	    $(document).ready(function() {
+		//PROGRESS BAR
+		$('.progress .progress-bar').progressbar({
+		    transition_delay: 400,
+		    display_text: 'fill'
+		});
+		
+		//CAROUSEL
+		var owl = $('#demo1');
+		owl.owlCarousel({
+		    loop: false,
+		    nav: true,
+		    margin: 10,
+		    navText: [
+				"<i class='fa fa-angle-left fa-lg'></i>",
+				"<i class='fa fa-angle-right fa-lg'></i>"
+			     ],
+		    responsive: {
+			0:{
+			    items:1
+			},
+			600:{
+			    items:3
+			},
+			1000:{
+			    items:4
+			}
+		    }
+		});
+
+	    }); //END
+	</script>
+    </body>
+
+<!-- Mirrored from cazylabs.com/themes-demo/quarca/documentation/pages/ui-advanced-elements.html by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 26 Mar 2015 07:28:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8"><!-- /Added by HTTrack -->
+</html>

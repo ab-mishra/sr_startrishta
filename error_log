@@ -1,0 +1,15 @@
+[19-Aug-2017 09:17:50 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/startrishta/public_html/beta-dev/saveImage.php on line 8
+[19-Aug-2017 09:17:50 UTC] PHP Warning:  copy(https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/20620866_1467309280014545_6916939720930823709_n.jpg?oh=ccd60d4b57fe13800516f1e57a1540dc&amp;oe=5A2369CB): failed to open stream: no suitable wrapper could be found in /home/startrishta/public_html/beta-dev/saveImage.php on line 8
+[19-Aug-2017 09:21:02 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/startrishta/public_html/beta-dev/saveImage.php on line 8
+[19-Aug-2017 09:21:05 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/startrishta/public_html/beta-dev/saveImage.php on line 8
+[19-Aug-2017 09:21:41 UTC] PHP Warning:  copy(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/startrishta/public_html/beta-dev/saveImage.php on line 8
+[19-Aug-2017 09:21:41 UTC] PHP Warning:  copy(https://scontent.xx.fbcdn.net/v/t1.0-0/s130x130/20620866_1467309280014545_6916939720930823709_n.jpg?oh=ccd60d4b57fe13800516f1e57a1540dc&amp;oe=5A2369CB): failed to open stream: no suitable wrapper could be found in /home/startrishta/public_html/beta-dev/saveImage.php on line 8
+[19-Aug-2017 09:22:44 UTC] PHP Parse error:  syntax error, unexpected '$server' (T_VARIABLE) in /home/startrishta/public_html/beta-dev/saveImage.php on line 8
+[19-Aug-2017 09:22:47 UTC] PHP Parse error:  syntax error, unexpected '$server' (T_VARIABLE) in /home/startrishta/public_html/beta-dev/saveImage.php on line 8
+[19-Aug-2017 09:23:12 UTC] PHP Parse error:  syntax error, unexpected '$server' (T_VARIABLE) in /home/startrishta/public_html/beta-dev/saveImage.php on line 8
+[19-Aug-2017 09:23:25 UTC] PHP Parse error:  syntax error, unexpected '$server' (T_VARIABLE) in /home/startrishta/public_html/beta-dev/saveImage.php on line 8
+[19-Aug-2017 09:54:55 UTC] PHP Warning:  unlink(upload/photo/): Is a directory in /home/startrishta/public_html/beta-dev/saveImage.php on line 21
+[19-Aug-2017 09:54:55 UTC] PHP Warning:  fopen(upload/photo/): failed to open stream: Is a directory in /home/startrishta/public_html/beta-dev/saveImage.php on line 23
+[19-Aug-2017 09:54:55 UTC] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/startrishta/public_html/beta-dev/saveImage.php on line 24
+[19-Aug-2017 09:54:55 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/startrishta/public_html/beta-dev/saveImage.php on line 25
+[19-Aug-2017 10:12:13 UTC] PHP Warning:  file_get_contents(20620866_1467309280014545_6916939720930823709_n.jpg): failed to open stream: No such file or directory in /home/startrishta/public_html/beta-dev/saveImage.php on line 30
